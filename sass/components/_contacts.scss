@@ -1,0 +1,30 @@
+.main-contacts {
+  width: 231px;
+  margin-right: 70px;
+}
+.main-contacts > .logo {
+  margin-bottom: 20px;
+  width: 231px;
+}
+.contact-list {
+  width: 231px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.contact-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address-link {
+  color: var(--main-white-color);
+  font-style: normal;
+}
+.contact-link {
+  color: var(--secondary-white-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}

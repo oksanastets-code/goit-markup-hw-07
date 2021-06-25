@@ -1,0 +1,43 @@
+/* Блок соцмереж */
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-list--team {
+  margin-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.social-list__item--team:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+}
+.social-list__link--team {
+  background-color: var(--main-white-color);
+  color: var(--icons-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list__link--footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--main-white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list__link--team:hover,
+.social-list__link--team:focus,
+.social-list__link--footer:hover,
+.social-list__link--footer:focus {
+  background: var(--accent-color);
+  color: var(--main-white-color);
+}
+.social-list__icon {
+  fill: currentColor;
+}

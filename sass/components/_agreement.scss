@@ -1,0 +1,44 @@
+// Кастомный чекбокс
+.agreement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.agreement__checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.agreement__icon {
+  width: 16px;
+  height: 15px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.agreement__checkbox:checked + .agreement__icon {
+  background-image: url("../images/check.svg");
+  fill: transparent;
+}
+.agreement__checkbox:focus-within + .agreement__icon {
+  box-shadow: 0 0 0 1px var(--accent-color);
+}
+
+.agreement__text,
+.agreement__link {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.agreement__link {
+  color: var(--accent-color);
+  text-decoration-line: underline;
+}
