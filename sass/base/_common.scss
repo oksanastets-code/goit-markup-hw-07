@@ -5,8 +5,8 @@ body {
 }
 p {
   color: $secondary-text-color;
-  padding: 0;
-  margin: 0;
+
+  @extend %null;
 }
 a {
   text-decoration: none;

@@ -20,16 +20,12 @@
 
     color: $main-white-color;
     &::placeholder {
-      font-size: 16px;
-      line-height: 1.25;
-      letter-spacing: 0.03em;
+      @include font-properties(16, 1.25, 0.03);
       color: $secondary-white-color;
     }
   }
   &__main-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-centered;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   }
 }

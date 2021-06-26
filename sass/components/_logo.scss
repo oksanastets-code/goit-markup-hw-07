@@ -3,11 +3,9 @@
 .logo {
   display: block;
 
-  font-family: var(--logo-font);
+  font-family: $logo-font;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
+  @include font-properties(26, 1.192, 0.03);
   &__part--accent {
     color: $accent-color;
   }

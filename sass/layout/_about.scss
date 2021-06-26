@@ -26,11 +26,8 @@
   &__title {
     padding-top: 27px;
     padding-bottom: 27px;
-
-    font-size: 14px;
-    line-height: 1.14;
+    @include font-properties(14, 1.14, 0.03);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 
     color: $main-white-color;

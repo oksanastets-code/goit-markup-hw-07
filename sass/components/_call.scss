@@ -1,9 +1,7 @@
 .call {
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font-properties(14, 1.14, 0.03);
   text-transform: uppercase;
   color: $main-white-color;
 }

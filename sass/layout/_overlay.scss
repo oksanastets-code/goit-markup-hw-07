@@ -15,10 +15,7 @@
   &__text {
     margin: 0;
     padding: 63px 24px;
-
-    font-size: 18px;
-    line-height: 1.56;
-    letter-spacing: 0.03em;
+    @include font-properties(18, 1.56, 0.03);
     color: $main-white-color;
   }
 }

@@ -19,9 +19,7 @@
 .hero-container__title {
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.364;
-  letter-spacing: 0.06em;
+  @include font-properties(44, 1.364, 0.06);
   text-transform: uppercase;
   color: $main-white-color;
 }
