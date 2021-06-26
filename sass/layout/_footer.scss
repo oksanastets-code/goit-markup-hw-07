@@ -1,13 +1,11 @@
 // Футер
 footer {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--background-footer);
+  background-color: $background-footer;
 }
 .footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }

@@ -1,10 +1,8 @@
 //Хедер
 //Панель
 header {
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: var(--border-header);
-  background-color: var(--main-white-color);
+  border-bottom: $border-header;
+  background-color: $main-white-color;
 }
 .header {
   display: flex;

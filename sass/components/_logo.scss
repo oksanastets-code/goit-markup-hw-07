@@ -8,13 +8,13 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-}
-.logo__part--blue {
-  color: var(--accent-color);
-}
-.logo__part--black {
-  color: var(--logo-text-color);
-}
-.logo__part--white {
-  color: var(--main-white-color);
+  &__part--accent {
+    color: $accent-color;
+  }
+  &__part--black {
+    color: $logo-text-color;
+  }
+  &__part--white {
+    color: $main-white-color;
+  }
 }

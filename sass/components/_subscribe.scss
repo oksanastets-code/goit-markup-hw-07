@@ -2,37 +2,38 @@
 
 .subscribe-form {
   width: 570px;
+  &__call {
+    margin-bottom: 20px;
+  }
 }
-.subscribe-form__call {
-  margin-bottom: 20px;
-}
+
 .subscribe-field {
   display: flex;
+  &__form-input {
+    margin-right: 12px;
+    padding: 15px 16px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    color: $main-white-color;
+    &::placeholder {
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: 0.03em;
+      color: $secondary-white-color;
+    }
+  }
+  &__main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
 }
-.subscribe-field__form-input {
-  margin-right: 12px;
-  padding: 15px 16px;
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  background-color: transparent;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.subscribe-field__form-input {
-  color: var(--main-white-color);
-}
-.subscribe-field__form-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: var(--secondary-white-color);
-}
-.subscribe-field__main-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
+
 .main-button__subscribe-icon {
   margin-left: 10px;
 }

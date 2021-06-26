@@ -11,28 +11,28 @@
 }
 .about-list {
   display: flex;
-}
-.about-list__item:not(:last-child) {
-  margin-right: 30px;
-}
-.about-list__item {
-  position: relative;
-}
-.about-list__item-describtion {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--background-about-items);
-}
-.about-list__title {
-  padding-top: 27px;
-  padding-bottom: 27px;
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__item {
+    position: relative;
+  }
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $background-about-items;
+  }
+  &__title {
+    padding-top: 27px;
+    padding-bottom: 27px;
 
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-  color: var(--main-white-color);
+    color: $main-white-color;
+  }
 }

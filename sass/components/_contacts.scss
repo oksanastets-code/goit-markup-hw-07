@@ -13,18 +13,18 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-}
-.contact-list__item:not(:last-child) {
-  margin-bottom: 9px;
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 .address-link {
-  color: var(--main-white-color);
+  color: $main-white-color;
   font-style: normal;
 }
 .contact-link {
-  color: var(--secondary-white-color);
-}
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
+  color: $secondary-white-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
